@@ -70,5 +70,5 @@ public class UserManager implements UserService {
 			System.out.println("Böyle bir kullanýcý bulunamadý.");
 			status = false;
 		}
-	}	
+	}
 }

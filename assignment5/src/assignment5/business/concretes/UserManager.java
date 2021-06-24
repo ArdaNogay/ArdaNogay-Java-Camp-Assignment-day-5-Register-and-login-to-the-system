@@ -71,5 +71,4 @@ public class UserManager implements UserService {
 			status = false;
 		}
 	}
-
 }

@@ -24,10 +24,6 @@ public class UserManager implements UserService {
 
 	@Override
 	public void signIn(String email, String password) {
-		/*
-		 * if (userCheckService.eMailVerification(email) == true &&
-		 * userCheckService.passwordVerification(password) == true)
-		 */
 
 		if (userDao.emailCheck(email) == false && userDao.passwordCheck(password) == false) {
 
